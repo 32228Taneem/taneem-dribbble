@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    background-color: #f8f7f4;
+}
+.parent-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    font-family: sans-serif,Arial, Helvetica;
+}
+.designer{
+    width: 30%;
+}
+
+.parent-container a{
+    text-decoration: none;
+    color: black;
+    font-family:  sans-serif;
+    font-weight: bold;
+    padding: 2%;
+    
+}
+.signin.fa-user{
+    background-color: #002970;
+    padding: 5%;
+    border-radius: 50%;
+    border: 1px,solid black;
+    color: whitesmoke;
+}
+.signin:hover{
+    background-color: darkblue;
+    border: none;
+}
+.container-searchbar{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.container-searchbar input{
+    border: none;
+}
+.login{
+    width:10%;
+    margin: 25px;
+    margin-top: 3%;
+}
+.login .signup-button{
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    
+}
+/* .inp{
+    background-color: white;
+} */
+.container{
+    text-align: center;
+    padding: 1px;
+}
+.container h3{
+    border: 1px solid transparent;
+    text-align: center;
+    width: 50%;
+    border-radius: 5rem;
+    margin: 2% 20% 0 39%;
+    /* top: 3%; */
+    padding: 0.5%;
+    width: fit-content;
+    background-color: rgba(235,152,162,255);
+}
+.middle-p{
+    font-size: 70px;
+    /* text-align: center; */
+    font-family: "Source Serif 4", serif,Georgia;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; 
+}
+.one-line{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.container button{
+    background-color: black;
+    border-radius: 5rem;
+    color: white;
+    padding: 1%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.img-container {
+    /* position: relative; */
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    margin: 4rem;
+
+    /* border: 5px solid green; */
+}
+/* .img-container div{
+    width: 200%;
+    border: 2px solid blue;
+    
+} */
+.img-container img{
+    width: 265px;
+    border-radius: 2.9rem; 
+    /* gap: 2rem; */
+    padding: 15px; 
+}
+/* .img-container{
+    background-image: url("https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png");
+    background-image: url("https://cdn.dribbble.com/uploads/47174/original/4f02d72fe701b15b2168a4954332427f.png?1685645150&format=webp&resize=1024x1275&vertical=center 1024w,");
+    width: 20%;
+    border-radius: 2rem;
+    display: flex;
+    color: white;
+    min-height: 50vh;
+    border: 2px solid red;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+} */
+/* .img-container p {
+    float: bottom;
+    margin-bottom: 2%;
+    border: 1px solid red;
+    text-align:end;
+    width: 20%;
+    height: 150px;
+    float: bottom;
+} */
+
+/* 4th part ka css */
+.section1{
+    background-color: white;
+}
+.section1 h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.card1{
+    width:30%;
+}
+.card1 img{
+    width: 100%;
+}
+.card1 p{
+    float: right;
+}
+.p1-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.p2-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.p3-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b-section{
+    
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+.section2{
+    background-color: rgba(254,219,121,255);
+    /* margin-bottom: 20%; */
+    /* padding: 18%; */
+    text-align: center;
+    
+}
+.section2 .heading{
+    font-size: 5rem;
+    font-family: Source Serif 4, Georgia, serif;
+    font-weight: 200;
+    padding: 7%;
+    /* margin: auto; */
+}
+.section2 .para{
+    font-family: Mona Sans,Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 3%;
+}
+.section2 .buttons .a1{
+    border-radius: 50px;
+    font-size: 100;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 20px;
+}
+.section2 .buttons .a2{
+    border-radius: 50px;
+    font-size: 100;
+    text-decoration: none;
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+}
+.section2 .designe{
+    font-size: 100;
+    text-align: center;
+}
+/* *{
+    border: 3px solid blue;
+} */
