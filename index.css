@@ -141,6 +141,7 @@ body{
 /* 4th part ka css */
 .section1{
     background-color: white;
+    margin: 5%;
 }
 .section1 h1{
     font-size: 3rem;
@@ -177,10 +178,9 @@ body{
     background-color: black;
     color: white;
 }
-.section2{
+/* .section2{
     background-color: rgba(254,219,121,255);
-    /* margin-bottom: 20%; */
-    /* padding: 18%; */
+    
     text-align: center;
     
 }
@@ -188,13 +188,13 @@ body{
     font-size: 5rem;
     font-family: Source Serif 4, Georgia, serif;
     font-weight: 200;
-    padding: 7%;
-    /* margin: auto; */
+    padding: 7% 7% 0% 7%;
+    margin: 0%;
 }
 .section2 .para{
-    font-family: Mona Sans,Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: normal;
     padding: 3%;
 }
 .section2 .buttons .a1{
@@ -213,11 +213,142 @@ body{
     background-color: white;
     width: fit-content;
     padding: 20px;
+    color: black;
 }
-.section2 .designe{
+.section2 .designer{
     font-size: 100;
+    margin: auto;
+} */
+.section2{
+    background-color: rgba(254,219,121,255);
     text-align: center;
+    /* border:1px solid red; */
+    /* width: 100%;  */
+    font-family: serif;
+    padding: 5%;
+    margin-top: 5%;
+     
+}
+.section2 h2{
+    font-size: 4.5rem ;
+    font-weight: 200;
+}
+.section2 p{
+    font-size: 1.5rem;
+    /* padding: 2%; */
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+.a1{
+    text-decoration: none;
+    border: 2px solid rgb(8, 8, 66);
+    background-color: rgb(8, 8, 66);
+    border-radius: 25px;
+    color: white;
+    padding:1%;
+    margin: 3%;
+}
+.a2{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    color:black;
+    padding:1%;
+    margin-left: 1%; 
 }
 /* *{
-    border: 3px solid blue;
+    border: 1px solid blue;
+} */
+.section3{
+    margin: 1%;
+}
+.section3 img{
+    width: 13%;
+    /* display: flex;
+    flex-direction: row; */
+}
+.section3{
+    display: flex;
+   padding: 1%;
+   /* margin: 2%; */
+    /* border: 2px solid red; */
+    /* flex-direction: row; */
+}
+.section3 img{
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;   
+    
+}
+
+/* .board .image-container {
+    display: inline-block;
+    position: relative;
+    padding: 5px; 
+    border-top: 10px solid blue; 
+    border-right:10px solid blue; 
+    box-sizing: border-box;
+}
+
+.board .image-container::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-top: 5px solid green; 
+    border-right: 5px solid green; 
+    width: calc(100% + 5px); 
+    height: calc(100% + 5px); 
+    box-sizing: border-box; 
+    pointer-events: none; 
+} */
+
+.section3 div{
+    margin: 1%;
+    justify-content: space-between;
+}
+.support-last{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.support-last a{
+    text-decoration: none;
+    
+}
+.last-i{
+    width: 10%;
+}
+.last-i i{
+    padding: 5%;
+}
+.last{
+    width:55%;
+}
+.last a{
+    padding: 2%;
+}
+.end a{
+    text-decoration: none;
+    
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+
+}
+.end div{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+.end2{
+    width: 35% !important;
+    /* background-color: rgba(0,0,0,0.7); */
+}
+/* *{
+    border: 1px solid blue;
 } */
